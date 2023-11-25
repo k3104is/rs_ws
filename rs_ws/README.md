@@ -27,4 +27,8 @@ exec2(build&exec)
 cargo run
 ```
 
-
+test
+```bash
+cargo test
+cargo test one_hundred
+```
