@@ -1,0 +1,13 @@
+version: '3'
+services:
+  rust:
+    restart: always
+    build: .
+    container_name: 'rust'
+    working_dir: '/root/'
+    tty: true
+    volumes:
+      - ./rs_ws:/root/rs_ws
+    ports:
+      - "80:80"
+
